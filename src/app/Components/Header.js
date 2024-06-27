@@ -17,7 +17,7 @@ const Header = () => {
   const [showCategoryMenu , setShowCategoryMenu] = useState(false);
   return (
     <HeadRoomWrap>
-      <nav>
+      <nav className='z-50'>
         <div className={`w-full h-[50px] md:h-[80px] bg-white flex items-center justify-between z-30 sticky top-0 transition-transform duration-200 shadow-md`}>
             <Wrapper className={'flex items-center justify-between'}>
               <Link href={'/'}>
