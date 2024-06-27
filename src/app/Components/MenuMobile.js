@@ -33,7 +33,7 @@ const MenuMobile = ({showCategoryMenu , setShowCategoryMenu, setMobileMenu }) =>
                                             <ul className='bg-black/[0.05] -mx-5 mt-4 -mb-4'>
                                                 {subMenu.map((submenu) => {
                                                     return(
-                                                        <Link key={submenu.id} href='/' onClick={()=>{
+                                                        <Link key={submenu.id} href={`category/${[2]}`} onClick={()=>{
                                                             setShowCategoryMenu(false)
                                                             setMobileMenu(false)
                                                          } } >

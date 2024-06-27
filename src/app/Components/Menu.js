@@ -32,7 +32,7 @@ const Menu = ({showCategoryMenu , setShowCategoryMenu }) => {
                                             <ul className='p-2 bg-white absolute top-6 left-0 min-w-[250px] px-1 text-black shadow-md'>
                                                 {subMenu.map((submenu) => {
                                                     return(
-                                                        <Link key={submenu.id} href='/' onClick={()=> setShowCategoryMenu(false)} >
+                                                        <Link key={submenu.id} href={`/category/${[2]}`} onClick={()=> setShowCategoryMenu(false)} >
                                                             <li className=' h-12 flex justify-between items-center p-3 hover:bg-black/[0.03] rounded-md'>
                                                                 {submenu.name}
                                                                 <span className='text-xs text-gray-500 opacity-50'>{submenu.doc_count}</span>
