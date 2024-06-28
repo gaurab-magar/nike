@@ -1,4 +1,5 @@
 import ProductDetailsCarousel from '@/app/Components/ProductDetailsCarousel'
+import RelatedProducts from '@/app/Components/RelatedProducts';
 import Wrapper from '@/app/Components/Wrapper'
 import React from 'react'
 import { IoMdHeartEmpty } from "react-icons/io";
@@ -81,6 +82,7 @@ const page = () => {
                     </div>
                 </div>
             </div>
+                        <RelatedProducts />
         </Wrapper>
     </div>
   )
