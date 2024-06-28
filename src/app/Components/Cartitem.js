@@ -46,13 +46,18 @@ const Cartitem = () => {
                             <select
                                 className="hover:text-black"
                                >
-                                <option>7</option>
+                                <option>uk 5</option>
+                                <option>UK 6</option>
+                                <option>UK 7.5</option>
                             </select>
                         </div>
 
                         <div className="flex items-center gap-1">
                             <div className="font-semibold">Quantity:</div>
                             <select>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
                             </select>
                         </div>
                     </div>
