@@ -10,7 +10,7 @@ const page = () => {
     <div className='w-full md:py-12'>
         <Wrapper>
             <div className='flex flex-col lg:flex-row md:px-10 gap-[50px] lg:gap-[100px]'>
-                <div className='border w-full md:w-auto flex-[1.5] max-w-[500px] lg:max-w-full mx-auto lg:mx-0'>
+                <div className='border w-full md:w-auto flex-[1.5] max-w-[500px] lg:max-w-full mx-auto lg:mx-0 overflow-hidden'>
                     <ProductDetailsCarousel />
                 </div>
                 <div className='flex-[1] py-3'>
@@ -74,12 +74,7 @@ const page = () => {
                                 <br />
                                 <br />
                                 ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero eget
-                                dignissim aliquam, nunc nunc ultricies nunc, eu lacinia
-                                ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero eget
-                                dignissim aliquam, nunc nunc ultricies nunc, eu lacinia
-                                ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero eget
-                                dignissim aliquam, nunc nunc ultricies nunc, eu lacinia
-                            
+                                dignissim aliquam, nunc nunc ultricies nunc, eu lacinia                            
                             </p>
                         </div>
                     </div>
