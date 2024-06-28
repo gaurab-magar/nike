@@ -1,3 +1,4 @@
+import ProductCard from '@/app/Components/ProductCard'
 import Wrapper from '@/app/Components/Wrapper'
 import React from 'react'
 
