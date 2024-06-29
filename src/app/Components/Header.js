@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <HeadRoomWrap>
       <nav>
-        <div className={`w-full h-[50px] md:h-[80px] bg-white flex items-center justify-between z-30 sticky top-0 transition-transform duration-200 shadow-md`}>
+        <div className={`w-full h-[50px] md:h-[80px] bg-white flex items-center justify-between z-[100]  sticky top-0 transition-transform duration-200 shadow-md`}>
             <Wrapper className={'flex items-center justify-between'}>
               <Link href={'/'}>
                 <Image src={'/assets/logo.svg'} alt='headerimg' className='w-12' width={50} height={40}></Image>

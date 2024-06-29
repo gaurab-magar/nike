@@ -6,7 +6,7 @@ import { Autoplay } from 'swiper/modules';
 
 const HeroBanner = () => {
   return (
-    <section className='-z-20'>
+    <section>
         <Swiper
             spaceBetween={30}
             centeredSlides={true}

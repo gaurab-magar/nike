@@ -3,7 +3,7 @@ import React from 'react'
 import Headroom from 'react-headroom'
 const HeadRoomWrap = ({children}) => {
   return (
-    <Headroom>{children}</Headroom>
+    <Headroom style={{ zIndex: 100 }}>{children}</Headroom>
   )
 }
 

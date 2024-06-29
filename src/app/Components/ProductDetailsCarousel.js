@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -69,7 +69,8 @@ const ProductDetailsCarousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img src="/assets/p4.png" className="w-full object-cover cursor-pointer" />
-          </SwiperSlide>      </Swiper>
+          </SwiperSlide>      
+        </Swiper>
     </div>
   )
 }
