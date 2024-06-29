@@ -6,7 +6,7 @@ import { Autoplay } from 'swiper/modules';
 
 const HeroBanner = () => {
   return (
-    <section className='relative -z-50'>
+    <section className='-z-20'>
         <Swiper
             spaceBetween={30}
             centeredSlides={true}
@@ -17,17 +17,17 @@ const HeroBanner = () => {
             >
             <SwiperSlide>
                 <img src="/assets/slide-3.png" alt="hero-banner-1"
-                className="w-full h-full object-cover relative -z-10" />
+                className="w-full h-full object-cover" />
                 <button className='absolute bottom-3 left-0 px-[15px] md:px-[40px] py-[10px] md:py-[20px] bg-white/[0.5] text-black font-bold text-sm md:text-lg uppercase cursor-pointer hover:opacity-90'>Shop now</button>
             </SwiperSlide>
             <SwiperSlide>
                 <img src="/assets/slide-2.png" alt="hero-banner-2"
-                className="w-full h-full object-cover relative -z-10" />
+                className="w-full h-full object-cover" />
                 <button className='absolute bottom-3 left-0 px-[15px] md:px-[40px] py-[10px] md:py-[20px] bg-white/[0.5] text-black font-bold text-sm md:text-lg uppercase cursor-pointer hover:opacity-90'>Shop now</button>
             </SwiperSlide>
             <SwiperSlide>
                 <img src="/assets/slide-1.png" alt="hero-banner-2"
-                className="w-full h-full object-cover relative -z-10" />
+                className="w-full h-full object-cover" />
                 <button className='absolute bottom-3 left-0 px-[15px] md:px-[40px] py-[10px] md:py-[20px] bg-white/[0.5] text-black font-bold text-sm md:text-lg uppercase cursor-pointer hover:opacity-90'>Shop Now</button>
             </SwiperSlide>         
         </Swiper>

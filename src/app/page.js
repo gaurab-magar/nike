@@ -17,7 +17,7 @@ export default function Home() {
                 during extended stretches of running.
             </div>
         </section>
-        <section id="product" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-6 py-4 px-2 md:px-0">
+        <section id="product" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-6 py-4 px-1 md:px-0">
           <ProductCard />
           <ProductCard />
           <ProductCard />
